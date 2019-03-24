@@ -11,7 +11,11 @@ sysinfo.txt
 /Assets/AssetStoreTools*
 *.apk
 *.unitypackage
-*.meta
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+crashlytics-build.properties
+/ProjectSettings/
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
@@ -21,7 +25,6 @@ sysinfo.txt
 /*.userprefs
 /*.csproj
 /*.pidb
-*.pidb.meta
 /*.suo
 /*.sln*
 /*.user
@@ -30,7 +33,13 @@ sysinfo.txt
 .consulo/
 /*.tmp
 /*.svd
- 
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vscode
+
+
 # ============ #
 # OS generated #
 # ============ #
@@ -48,3 +57,4 @@ Corridor/Library/metadata/
 # ====== #
 # Custom #
 # ====== #
+.gradle/
